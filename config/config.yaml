@@ -1,0 +1,9 @@
+artifacts_root: artifacts
+
+data_base_connection:
+  sqlserver: Driver=SQL Server;Server=home\SQLEXPRESS;Database=Northwind;Trusted_Connection=yes;
+  mongodb: mongodb://localhost:27017/
+# Data ingestion is the process of importing large, assorted data files from 
+# multiple sources into a single, 
+data_ingestion:
+  source_dir: F:\Demo\DataScience\Python\Projects\ML.ProjectTemplate\artifacts\data_ingestion\MahatmaGandhi.txt

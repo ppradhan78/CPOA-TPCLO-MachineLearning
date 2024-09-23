@@ -1,0 +1,11 @@
+{
+    "data_base_connection":{
+        "sqlserver":"Driver=SQL Server;Server=home\\SQLEXPRESS;Database=Northwind;Trusted_Connection=yes;",
+        "mongodb": "mongodb://localhost:27017/"
+    },
+    "data_ingestion":{
+        "source_dir": "artifacts\\data_ingestion\\consumercomplaints.csv",
+        "archive_dir": "artifacts\\data_ingestion\\archive"
+
+    }
+}

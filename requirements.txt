@@ -1,0 +1,13 @@
+pandas
+numpy
+pyyaml
+pydantic
+pyodbc
+matplotlib
+wordcloud
+nltk
+scikit-learn
+fastapi
+uvicorn
+textblob
+-e .
